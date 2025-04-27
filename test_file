@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+#define SUCCESS (1)
+
+
+
+int main() {
+  for (int i = 0; i < 20; i++) {
+    if (i == 2) {
+      printf("i is two!\n");
+    }
+    else {
+      printf("i isn't two!\n");
+    }
+  }
+  int x = 12;
+  x++;
+  x--;
+  while (x > 0) {
+    x--;
+  }
+  char c = 'a';
+  char b = ' ';
+  return 0;
+}
+
